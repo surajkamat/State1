@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "SchlorshipProvider";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    
+
+    .badge {
+        color: darkred;
+        font-size: 20px;
+    }
+
+
+</style>
+
+<h2>Admin</h2>
+
+<a  class="notif"> 
+    <span class="num">@Html.ActionLink("Help Request", "Index", "Help")</span>
+    <span class="badge">@ViewBag.Data</span>
+    
+</a>
+
+
+
